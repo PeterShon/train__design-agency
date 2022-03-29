@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Agency</title>
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__container container">
+      <div class="logo">
+        <a href="#">Logo Here</a>
+      </div>
+      <div class="burger">
+        <div class="burger__inner"></div>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li>Home<a href="#">Home</a></li>
+          <li>Our Portfolio<a href="#">Our Portfolio</a></li>
+          <li>Our Team<a href="#">Our Team</a></li>
+          <li>Contact Us<a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="promotion">
+      <div class="promotion__container container">
+        <div class="promotion__inner">
+          <div class="promotion__description">
+            <h1 class="promotion__we">Creative Agency</h1>
+            <p class="promotion__motto">Your ideas are the
+              orange of our eyes</p>
+            <p class="promotion__about">We craft premium digital work for web, mobile and experiential with creative
+              agencies and
+              global brands alike – putting passion, pride and plenty of elbow grease into everything we do.</p>
+          </div>
+          <div class="promotion__skills">
+            <p class="promiton__skill">Graphic design</p>
+            <p class="promiton__skill">Website & Mobile dev</p>
+            <p class="promiton__skill">UI, UX design</p>
+          </div>
+        </div>
+        <div class="promotion__cover">
+          <img src="./src/img/description-cover.jpg" alt="cover">
+        </div>
+        <div class="promotion__vector">
+          <img src="./src/img/description-vector.svg" alt="promotion-vector">
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="services__container container">
+        <h2 class="services__header block-header">
+          <span class="block-header__main">Provide</span><br>
+          <span class="block-header__secondary">awesome services</span>
+        </h2>
+        <div class="services__card card">
+          <div class="card__img" style="background-color: #E3FCE6;"><img src="./src/icon/uiux.svg" alt="ui ux design">
+          </div>
+          <h3 class="card__header">Web and mobile UI, UX design</h3>
+          <p class="card__description">We craft stunning and amazing
+            web UI, using a well drrafted UX to
+            fit your product.</p>
+        </div>
+        <div class="services__card card">
+          <div class="card__img" style="background-color: #FFF6E5;"><img src="./src/icon/graphic.svg"
+              alt="graphic design"></div>
+          <h3 class="card__header">Graphic design</h3>
+          <p class="card__description">Amazing flyers, social media posts and brand representations that would make your
+            brand stand out.</p>
+        </div>
+        <div class="services__card card">
+          <div class="card__img" style="background-color: #E8F9FE;"><img src="./src/icon/smartphone.svg"
+              alt="development"></div>
+          <h3 class="card__header">Mobile app and web development</h3>
+          <p class="card__description">With well written codes, we build amazing apps for all platforms, mobile and web
+            apps in general.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="examples">
+      <div class="examples__container container">
+        <h2 class="examples__header block-header">
+          <a href="#" class="block-header__main">Here are</a><br>
+          <span class="block-header__secondary">some of our works</span>
+        </h2>
+        <div class="examples__main">
+          <a href="#" class="examples__ex"><span>Here are <br> some of our works</span><img src="./src/img/birds.jpg"
+              alt="works"></a>
+          <a href="#" class="examples__ex"><img src="./src/img/site-a-top.jpg" alt="works"></a>
+          <a href="#" class="examples__ex"><img src="./src/img/site-a-bottom.jpg" alt="works"></a>
+          <a href="#" class="examples__ex"><img src="./src/img/mobile-app.jpg" alt="works"></a>
+          <a href="#" class="examples__view-more">View more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="team">
+      <div class="team__container container">
+        <div class="team__person-box">
+          <div class="team__photo-box">
+            <div style="background-color: #EAD8BF"></div>
+            <img src="./src/img/harriet.jpg" alt="harriet" class="team__photo" style="left:-6px; top: 7px;">
+          </div>
+          <span class="team__name">Harriet Jameson</span>
+          <span class="team__prof">Graphic Designer</span>
+          <div class="team__link-box">
+            <a href="#" class="team__link"><svg class="icon">
+                <use xlink:href="#facebook"></use>
+              </svg></a>
+            <a href="#" class="team__link" data-icon="twitter">
+              <svg class="icon">
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a href="#" class="team__link" data-icon="linkedin">
+              <svg class="icon">
+                <use xlink:href="#linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team__person-box">
+          <div class="team__photo-box">
+            <div style="background-color: #B0F1FF"></div>
+            <img src="./src/img/stephen.jpg" alt="stephen" class="team__photo" style="left:7px; top: 0px;">
+          </div>
+          <span class="team__name">Stephen Cavema</span>
+          <span class="team__prof">Web Designer</span>
+          <div class="team__link-box">
+            <a href="#" class="team__link"><svg class="icon">
+                <use xlink:href="#facebook"></use>
+              </svg></a>
+            <a href="#" class="team__link" data-icon="twitter">
+              <svg class="icon">
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a href="#" class="team__link" data-icon="linkedin">
+              <svg class="icon">
+                <use xlink:href="#linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team__person-box">
+          <div class="team__photo-box">
+            <div style="background-color: #89E289"></div>
+            <img src="./src/img/sebastian.jpg" alt="sebastian" class="team__photo" style="left:8px; top: 14px;">
+          </div>
+          <span class="team__name">Sebastian Illoins</span>
+          <span class="team__prof">Content Creator</span>
+          <div class="team__link-box">
+            <a href="#" class="team__link"><svg class="icon">
+                <use xlink:href="#facebook"></use>
+              </svg></a>
+            <a href="#" class="team__link" data-icon="twitter">
+              <svg class="icon">
+                <use xlink:href="#twitter"></use>
+              </svg>
+            </a>
+            <a href="#" class="team__link" data-icon="linkedin">
+              <svg class="icon">
+                <use xlink:href="#linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clients">
+      <div class="clients__container container">
+        <div class="clients__gallery">
+          <a href="#" class="clients__client"><img src="./src/img/cl1.png" alt="client"></a>
+          <a href="#" class="clients__client"><img src="./src/img/cl2.png" alt="client"></a>
+          <a href="#" class="clients__client"><img src="./src/img/cl3.png" alt="client"></a>
+          <a href="#" class="clients__client"><img src="./src/img/cl4.png" alt="client"></a>
+          <a href="#" class="clients__client"><img src="./src/img/cl5.png" alt="client"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <div class="feedback__container container">
+        <div class="feedback__motto">
+          <h2 class="feedback__motto-title"><span>Let us handle your </span><span>project, professionally.</span></h2>
+          <p class="feedback__motto-subtitle">With well written codes, we build amazing apps for all platforms, mobile
+            and web apps in general.</p>
+        </div>
+        <div class="feedback__form">
+          <div class="input-box">
+            <input type="email" name="email" class="input-box__input" placeholder=" ">
+            <div class="input-box__placeholder" data-placeholder="Your email address"></div>
+          </div>
+          <div class="input-box">
+            <input type="text" name="name" class="input-box__input" placeholder=" ">
+            <div class="input-box__placeholder" data-placeholder="Your name / company’s name"></div>
+          </div>
+          <div class="input-box">
+            <textarea class="input-box__area" placeholder=" "></textarea>
+            <div class="input-box__placeholder" data-placeholder="Your message"></div>
+          </div>
+          <button class="feedback__send">Send</button>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__logo logo">
+        <a href="#">Logo Here</a>
+      </div>
+      <span class="footer__copyright">copyright Orange labs 2020</span>
+      <span class="footer__copyright">copyright Orange labs 2020</span>
+    </div>
+  </footer>
+
+
+
+  <svg>
+    <defs>
+      <clipPath id="cutter" viewBox="0 0 512 512" width="0" height="0" clipPathUnits="objectBoundingBox"
+        transform="scale(0.001953125)">
+        <path
+          style="fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+          d="m 92.655381,435.98306 c 0,0 -55.305925,-10.77386 -63.925031,-61.77024 -8.619105,-50.99637 25.857316,-86.19106 22.98428,-115.63967 -2.873034,-29.44861 3.591295,-15.08343 -5.027811,-66.79806 -8.619104,-51.71463 30.885127,-163.762999 129.286581,-181.719467 98.40144,-17.9564694 155.86214,10.773881 170.94559,15.083433 15.08342,4.309553 96.24666,7.182589 96.96492,10.055623 0.71827,2.873036 61.77026,22.26602 50.27811,76.853691 -11.49212,54.58766 -18.67471,74.69891 -8.61909,141.49697 10.05562,66.79805 -16.51995,96.24668 -16.51995,96.24668 0,0 -40.94075,57.4607 -71.10762,89.06407 -30.16689,31.60339 -52.4329,65.36155 -91.93712,72.54414 -39.50425,7.18259 -106.3023,-40.94075 -106.3023,-40.94075 0,0 -29.44861,-23.70254 -107.020559,-34.47642 z"
+          id="path1417" />
+      </clipPath>
+      <symbol id="facebook" viewBox="0 0 4 11">
+        <g>
+          <path
+            d="M2.59854 11V5.99055H3.78321L3.9593 4.02918H2.59854V2.77987C2.59854 2.2139 2.70908 1.82639 3.27849 1.82639H4V0.0777268C3.64895 0.0240573 3.29608 -0.00185686 2.94302 0.000103396C1.89589 0.000103396 1.17695 0.912025 1.17695 2.58612V4.02551H0V5.98688H1.17952V11H2.59854Z" />
+        </g>
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 10 9">
+        <g>
+          <path
+            d="M8.97262 2.24295C8.97924 2.34162 8.97924 2.43973 8.97924 2.53784C8.97924 5.54028 6.91685 9 3.14777 9C1.98657 9 0.907796 8.6273 0 7.98002C0.164869 8.00088 0.323631 8.00821 0.495115 8.00821C1.41766 8.01068 2.31409 7.66885 3.03989 7.03784C2.61216 7.02926 2.19752 6.87289 1.85388 6.59057C1.51023 6.30824 1.25472 5.91405 1.12304 5.46304C1.24975 5.4839 1.37696 5.498 1.51028 5.498C1.69398 5.498 1.87869 5.4698 2.05017 5.42075C1.58598 5.3169 1.16857 5.0381 0.868929 4.63176C0.569287 4.22542 0.405909 3.71663 0.406574 3.19189V3.1637C0.679829 3.33229 0.996845 3.43773 1.33269 3.45182C1.05134 3.24466 0.820639 2.96355 0.661174 2.63357C0.501709 2.3036 0.418437 1.93501 0.418787 1.56071C0.418787 1.13896 0.520049 0.752162 0.697639 0.414986C1.21267 1.11698 1.85503 1.69127 2.58311 2.10067C3.3112 2.51007 4.10877 2.74545 4.92418 2.79157C4.89263 2.62242 4.87329 2.44706 4.87329 2.27114C4.87316 1.97285 4.92609 1.67745 5.02904 1.40184C5.132 1.12622 5.28297 0.875797 5.47333 0.664872C5.66368 0.453948 5.88969 0.286662 6.13843 0.172579C6.38717 0.0584958 6.65376 -0.00014794 6.92296 2.80264e-07C7.51323 2.80264e-07 8.046 0.274026 8.42052 0.717203C8.87939 0.61888 9.31943 0.433267 9.72115 0.168588C9.56819 0.693419 9.24779 1.13845 8.81997 1.42031C9.22694 1.36888 9.62469 1.25029 10 1.06848C9.71969 1.52129 9.37234 1.91838 8.97262 2.24295Z" />
+        </g>
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 10 9">
+        <g>
+          <path
+            d="M2.27008 9V2.92772H0.126472V9H2.27008ZM1.19855 2.09815C1.94607 2.09815 2.41136 1.63187 2.41136 1.04917C2.39743 0.453338 1.94609 0 1.21274 0C0.479495 0 0 0.453347 0 1.04917C0 1.6319 0.465176 2.09815 1.18456 2.09815H1.19849H1.19855ZM3.45656 9H5.60017V5.60894C5.60017 5.42745 5.61409 5.24616 5.6707 5.11642C5.82567 4.75382 6.17837 4.37827 6.77053 4.37827C7.54621 4.37827 7.85653 4.93512 7.85653 5.75142V8.99995H10V5.51816C10 3.653 8.94246 2.78516 7.53209 2.78516C6.3757 2.78516 5.86797 3.39375 5.5859 3.80827H5.60021V2.92759H3.45661C3.48474 3.49738 3.45661 8.99987 3.45661 8.99987L3.45656 9Z" />
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+  <button class="scroll-top active"></button>
+  <script src="script.js"></script>
+</body>
+
+</html>
